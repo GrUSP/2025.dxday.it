@@ -11,11 +11,11 @@ theme: "grusp_conf"
 # Site / OG
 type: website
 slug: dxday
-edition: 2022
-title: "dxday 2022"
-description: "dxday 2022, online conference"
+edition: 2025
+title: "dxday 2025 - the developer experience conference"
+description: "dxday is the developer experience conference that will be held in Bologna, Italy the 13th of March 2025"
 #   separate keywords by comma, no spaces
-keywords: conference,software conference,symfony,php,tech conference
+keywords: dxday, conference, devex, developer experience, event, bologna, italytech conference
 author: GrUSP
 language: en
 timezone: 'Europe/Rome'
@@ -36,7 +36,7 @@ breadcrumb:
 # URL
 ## If your site is put in a subdirectory, set url as 'yoursite.com/child' and root as '/child/'
 # TODO actual URL (per site)
-url: https://2022.dxday.it/
+url: https://2025.dxday.it/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
