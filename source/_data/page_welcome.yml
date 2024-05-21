@@ -1,7 +1,35 @@
 intro:
-  main_title: "Welcome"
-  content_1: "rubyday Italy is the main conference in Italy that is dedicated solely to Ruby and its ecosystem."
-  content_2: "The event's goal is to allow the community to meet and share experiences while having fun and networking in an enjoyable context."
+  main_title: "dxday - the developer experience conference"
+  content_1: "Join us for the 2nd edition of dxday, the premier Italian conference dedicated to Developer Experience (DX), taking place on 13th March 2025 at Bologna, Italy. Building on the success of our inaugural event, dxday 2025 promises to be an even more impactful gathering, bringing together developers, engineers, product managers, and DX enthusiasts from around the globe to explore, innovate, and elevate the field of developer experience.
+  <br>&nbsp;<br>
+  <h3>What to Expect</h3><br>
+  <b>Keynote Speakers</b><br>
+  Hear from industry leaders and DX pioneers who will share their insights on the latest trends, tools, and best practices that are shaping the future of developer experience.
+  <br><b>Panel Discussions</b><br>
+  Participate in thought-provoking panel discussions featuring experts who will tackle the most pressing issues in the DX space, such as developer productivity, community building, and the impact of emerging technologies on the developer landscape.
+  <br><b>Networking Opportunities</b><br>
+  Connect with like-minded professionals and expand your network during dedicated networking sessions, social events, and our expo hall, where you can interact with leading companies and discover innovative solutions designed to improve developer experience.
+  <br><b>Innovation Showcase</b><br>
+  Explore cutting-edge products and services in our Innovation Showcase, where startups and established companies alike will demonstrate their latest offerings aimed at enhancing the daily lives of developers.
+  <br>&nbsp;<br>
+  <h3>Who Should Attend</h3>
+  dxday is designed for anyone passionate about improving the developer journey, including:
+  <li>Software Developers
+  <li>DevOps Engineers
+  <li>Product Managers
+  <li>UX/UI Designers
+  <li>Technical Writers
+  <li>Community Managers
+  <li>DX Advocates
+  <br>&nbsp;<br>
+  <h3>Why Attend</h3>
+  Stay Ahead of Trends: Gain insights into the latest DX trends and technologies that can help you stay ahead in a rapidly evolving field.<br>
+  Learn from the Best: Learn directly from industry experts and thought leaders who are at the forefront of developer experience innovation.<br>
+  Hands-On Experience: Participate in interactive sessions that provide actionable skills and knowledge you can apply immediately.<br>
+  Expand Your Network: Meet and connect with a diverse community of professionals who share your passion for DX.<br>
+  <br>&nbsp;<br>
+  Join us at dxday 2024 to discover how to create more engaging, efficient, and enjoyable experiences for developers.<br>Together, we can shape the future of developer experience!"
+#  content_2: "The event's goal is to allow the community to meet and share experiences while having fun and networking in an enjoyable context."
 # this is the global "read more" label
 readmore_label: "Read more"
 # these are the title and descriptions of the 6 blocks
