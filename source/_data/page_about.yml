@@ -21,7 +21,7 @@ more:
     <li><a href='https://uxday.it/' target=_blank>uxday</a>
     <li><a href='https://containerday.it/' target=_blank>containerday</a>
     <li><a href='https://devsecopsday.it/' target=_blank>devsecopsday</a>
-    <li><a href='https://bettersoftware.it/' target=_blank>Better Software</a>
+    <!--li><a href='https://bettersoftware.it/' target=_blank>Better Software</a-->
     <li><a href='https://reactjsday.it/' target=_blank>reactjsday</a>
     <li><a href='https://laravelday.it/' target=_blank>laravelday</a>
     <li><a href='https://angularday.it/' target=_blank>angularday</a>
@@ -35,7 +35,7 @@ more:
 #  video_caption: "Guarda i video dell'ultima edizione"
 team:
   title: "The team"
-  intro: "We are a dynamic team of passionate individuals, blending diverse expertise in technology, creative arts, and community management. Our unique combination of skills allows us to innovate and connect effectively, driving forward our mission with enthusiasm and excellence"
+  intro: "We are a dynamic team of passionate individuals, blending diverse expertise in technology, creative arts, and community management. Our unique combination of skills allows us to innovate and connect effectively, driving forward our mission with enthusiasm and excellence."
   members:
     member_1:
       name: "Matteo Beccati"
