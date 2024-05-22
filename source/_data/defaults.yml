@@ -57,7 +57,7 @@ conference:
   geninfo_visible: true
   geninfo_title: "What is dxday?"
   geninfo_description: "The dxday conference, now in its second edition, is a premier event dedicated to exploring and enhancing Developer Experience (DX). This conference gathers industry leaders, developers, and tech enthusiasts to share insights, innovations, and best practices that elevate the daily experiences of developers.<br>&nbsp;
-  <br> Organized by <b>GrUSP</b>, this international event gathers professionals to explore themes such as ephemeral environments, AI in coding, IDP systems, remote development, API design and more. Join us to delve into the technologies and processes that boost developer productivity, satisfaction, and impact!<br>&nbsp;
+  <br> Organized by <b><a href='https://www.grusp.org/en/' target=_blank>GrUSP</a></b>, this international event gathers professionals to explore themes such as ephemeral environments, AI in coding, IDP systems, remote development, API design and more. Join us to delve into the technologies and processes that boost developer productivity, satisfaction, and impact!<br>&nbsp;
   <br> <b>&#128227 Key Highlights</b>: Expert Speakers, Networking Opportunities, Cutting-Edge Technologies & Case Studies and Real-World Examples. <br>&nbsp;
   <br> <b>&#128161 Who should attend?</b> Developers, Tech Leads and Managers, Product Managers, HR and Team Leads. <br>&nbsp;
   <br> <b>&#128187 Why attend?</b> Stay Ahead of Trends, Enhance Your Skills, Expand Your Network, Be Inspired.<br>&nbsp;
@@ -165,8 +165,8 @@ conference:
   past_editions:
     2024: "2024"
   past_editions_videos_pre: "Videos from the past editions are available on "
-  past_editions_videos_vimeo_label: "Vimeo"
-  past_editions_videos_mid: " and "
+  past_editions_videos_vimeo_label: ""
+  past_editions_videos_mid: ""
   past_editions_videos_youtube_label: "YouTube"
   past_editions_videos_post: "."
   footer_copy_text: "is &copy; by <a href='https://www.grusp.org'>GrUSP</a> and its awesome staff"
