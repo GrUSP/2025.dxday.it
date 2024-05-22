@@ -101,12 +101,12 @@ conference:
   topics_title: "Topics and themes"
   topics_description: "We'll talk about..."
   topics:
-    - "Ruby"
-    - "Ruby On Rails"
-    - "Security"
-    - "Testing"
-    - "Continuous Integration"
-    - "API"
+    - "Developer Productivity"
+    - "AI in coding"
+    - "IDP Systems"
+    - "Onboarding"
+    - "DevEx"
+    - "Ephemeral Dev Environments"
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
   workshop_visible: false
