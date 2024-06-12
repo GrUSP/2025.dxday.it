@@ -25,9 +25,9 @@ open_graph:
   # si può sostituire con il logo della conferenza (`img/conference-logo.png`)
   image: 'img/grusp-logo-full.png'
 twitter:
-  twitter_id: dxdayIT
+  twitter_id: grusp
 fb:
-  fb_id: dxday
+  fb_id: grusp
 
 # Breadcrumbs
 breadcrumb:
