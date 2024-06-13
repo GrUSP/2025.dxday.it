@@ -71,6 +71,12 @@
                 input(type="checkbox" value="256" name="group[13285][256]" id="mce-group[13285]-13285-6")
               label(for="mce-group[13285]-13285-6") entrepreneurship
             li
+              if(site.data.defaults.conference.newsletter_lists.dxday)
+                input(type="checkbox" value="64" name="group[13285][1024]" id="mce-group[13285]-13285-9" checked)
+              else
+                input(type="checkbox" value="64" name="group[13285][1024]" id="mce-group[13285]-13285-9")
+              label(for="mce-group[13285]-13285-7") dxday
+            li
               if(site.data.defaults.conference.newsletter_lists.local_events)
                 input(type="checkbox" value="64" name="group[13285][64]" id="mce-group[13285]-13285-7" checked)
               else

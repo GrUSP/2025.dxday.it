@@ -46,11 +46,11 @@ conference:
   update_link_url: "https://google.com/"
   update_link_label: "link to google, just for the demo"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
-  cfp_deadline: 2021-02-15T23:59+01:00
+  cfp_deadline: 2024-10-31T23:59+01:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
@@ -79,7 +79,8 @@ conference:
     ruby: false
     entrepreneurship: false
     local_events: false
-    everything: true
+    dxday: true
+    everything: false
   newsletter_firstname_label: "First name"
   newsletter_lastname_label: "Surname"
   newsletter_email_label: "Email"
@@ -108,7 +109,7 @@ conference:
     - "Developer Tools and Productivity"
     - "Developer Onboarding"
     - "Documentation and Knowledge Sharing"
-    - "Remote Work and Collaboration"  
+    - "Remote Work and Collaboration"
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
   workshop_visible: false
@@ -150,9 +151,9 @@ conference:
   community_partners_title: "Community partners"
   # this is for the Social links block
   social_follow: "Follow us on"
-  social_fb_url: "https://www.facebook.com/dxday"
+  social_fb_url: "https://www.facebook.com/grusp"
   social_linkedin_url: "https://www.linkedin.com/showcase/dxday/"
-  social_twitter_url: "https://twitter.com/dxdayit"
+  social_twitter_url: "https://twitter.com/grusp"
   social_vimeo_url: "https://vimeo.com/grusp"
   social_youtube_url: "https://www.youtube.com/c/grusp"
   social_instagram_url: "https://www.instagram.com/grusp_/"
