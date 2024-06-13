@@ -101,12 +101,14 @@ conference:
   topics_title: "Topics and themes"
   topics_description: "We'll talk about..."
   topics:
-    - "Developer Productivity"
     - "AI in coding"
-    - "IDP Systems"
-    - "Onboarding"
-    - "DevEx"
-    - "Ephemeral Dev Environments"
+    - "Internal Developer Portals"
+    - "Tooling and Development Environments"
+    - "Continuous Integration/Continuous Deployment (CI/CD)"
+    - "Developer Tools and Productivity"
+    - "Developer Onboarding"
+    - "Documentation and Knowledge Sharing"
+    - "Remote Work and Collaboration"  
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
   workshop_visible: false
