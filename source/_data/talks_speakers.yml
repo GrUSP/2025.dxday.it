@@ -72,11 +72,47 @@ Mario Esposito continues to play a pivotal role at Immobiliare.it, leveraging hi
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_5: &EdwigeFiaclou
+  speaker_in_speaker_lists: true
+  speaker_name: "Edwige Fiaclou"
+  speaker_pic_filename: "EdwigeFiaclou.jpg"
+  speaker_role: "Head Methodology Tech Talent @ Swissquote"
+  speaker_bio: "I'm an accomplished technologist deeply committed to promoting diversity and inclusion in STEM* (Science, Technology, Engineering and Mathematics). 
+  <br />I hold a BSc in mathematics and an MSc in Computer Science from the University Lyon 1 (France), with a FinTech oriented educational background. 
+  <br />With years of experience in various roles, including mobile development and banking applications, I have navigated through many technologies and business domains. 
+  <br />Since joining Swissquote in 2012, I have contributed to technical stacks and software delivery across multiple domains and layers, from Banking operations to Trading Systems Management. 
+  <br />My unwavering dedication to excellence, best practices and innovative perspective earned her a promotion to Vice Director in 2022, where she now oversees Methodologies, Program Management and Tech Talent teams within Software Engineering.
+<br />Despite my many accomplishments, I remain eager to learn from others. I actively contributed to many talks, in Switzerland, or at International for Women In Tech or Lead Dev track!"
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/EdwigeFiaclou"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/edfiaclou/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+speaker_6: &GuillaumeProust
+  speaker_in_speaker_lists: true
+  speaker_name: "Guillaume Proust"
+  speaker_pic_filename: "GuillaumeProust.jpg"
+  speaker_role: "Tech Talent Academy Manager @ Swissquote"
+  speaker_bio: "Driven by a lifelong fascination with technology, I have built a career connecting people with innovative solutions. <br />
+My career spans various industries, from public service (retirement, firefighting) to the private sector (real estate, transport, and finance), where I honed my Java skills in diverse environments. <br />
+At Swissquote, he transitioned from a successful five-year tenure as a Java developer (including two years in a management role) to lead the Tech Talent Academy. In this role, I create impactful onboarding experiences, empowering engineers and introducing technical concepts to business-oriented colleagues.
+<br />This passion for knowledge-sharing stems from my belief in the power of continuous learning... and, of course, delicious meals!"
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/gproust/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *KingaGazdzinska
   speaker_2: *GiorgiaRondinini
   speaker_3: *MichelMurabito
   speaker_4: *MarioEsposito
+  speaker_5: *EdwigeFiaclou
+  speaker_6: *GuillaumeProust
 
 tracks:
   track_1: &track_1
@@ -186,10 +222,32 @@ days:
 Drawing from Team Topologies, we will highlight the importance of socio-technical systems where collaboration and communication are paramount. This perspective emphasizes that technical excellence is intertwined with effective team dynamics and cognitive load management.
 <br /> <br />
 By integrating these concepts, we aim to demonstrate how high-performing teams thrive at the intersection of technology and collaboration, ultimately enhancing their ability to deliver continuous value to customers."
-
         talk_video_url:
         speakers:
           speaker_4: *MarioEsposito
+
+      UnlockingPotentialTransformingOnboardingIntoAJourneyOfEmpowerment:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-03-13T14:30+02:00
+        # end_datetime: 2025-03-13T15:10+02:00
+        talk_title: "Unlocking Potential: Transforming Onboarding into a Journey of Empowerment"
+        talk_description: "In the fast-paced world of software engineering, onboarding is no longer just a welcome; it’s an invitation to thrive, innovate, and transform. 
+        <br />At Swissquote, we've crafted something extraordinary with our Tech Talent Academy—an onboarding experience like no other. 
+        <br />This immersive, three-month journey is designed to spark potential, ignite innovation, and set the stage for a truly inclusive workplace.
+Imagine an onboarding program that goes beyond the basics, one that’s purposefully designed to:
+<ul>
+<li>Immerse Engineers</li>
+<li> Champion Diversity</li>
+<li>Ignite Innovation</li>
+<li>Drive Transformation</li>
+</ul>
+<br />
+Join us as we share the heart of the Tech Talent Academy. Discover the strategies that make it a catalyst for growth and impact, hear how it’s reshaping our engineering teams, and walk away with actionable insights to transform your own onboarding process."
+        talk_video_url:
+        speakers:
+          speaker_5: *EdwigeFiaclou
+          speaker_6: *GuillaumeProust
      
   
 
