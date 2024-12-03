@@ -20,8 +20,23 @@ speaker_1: &KingaGazdzinska
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_2: &GiorgiaRondinini
+  speaker_in_speaker_lists: true
+  speaker_name: "Giorgia Rondinini"
+  speaker_pic_filename: "GiorgiaRondinini.png"
+  speaker_role: "Platform Engineer @ Imola Informatica"
+  speaker_bio: "Software Architecture, DevOps and Platform Engineering enthusiast, always in search of time and opportunities to learn something new. 
+  <br /> My interests space from cloud to functional programming."
+  speaker_github_url: "https://x.com/grondinini_"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://it.linkedin.com/in/giorgia-rondinini-b15132288"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *KingaGazdzinska
+  speaker_2: *GiorgiaRondinini
 
 tracks:
   track_1: &track_1
@@ -89,3 +104,19 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *KingaGazdzinska
+      
+      GitOpsSecretManagementAndHowDevelopersCanSurviveIt:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-03-13T11:10+02:00
+        # end_datetime: 2025-03-13T11:50+02:00
+        talk_title: "GitOps Secret Management and How Developers Can Survive It"
+        talk_description: "'I will remove it later after the local tests!' The last famous words, before a production secret is written, committed and pushed to a repository. 
+        <br />Secret management is hard in theory, harder when following GitOps principles, and in practice it is even worse for budget limits, technical limits, knowledge limits make implementing a secure and above all usable solution a challenge. 
+        <br />In this talk we will see common GitOps secret management patterns, with their pros and cons, and how they can be improved to offer a better experience to developers and infrastructure teams."
+        talk_video_url:
+        speakers:
+          speaker_2: *GiorgiaRondinini
+  
+
+      
