@@ -4,12 +4,15 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
+speaker_1: &KingaGazdzinska
+  speaker_in_speaker_lists: true
+  speaker_name: Kinga Gazdzinska
+  speaker_pic_filename: KingaGazdzinska.png
+  speaker_role: "Software architect @ Grupa Pracuj"
+  speaker_bio: "I'm a programmer and architect at Grupa Pracuj. <br />
+  I have given presentations at multiple software conferences, e.g. Infoshare, .NET Developer Days, SFI IT Academic Festival. <br />
+  I'm interested in the impact of human factors on the architecture (e.g, Conway's law), tools that facilitate gathering and defining requirements (e.g., Event Storming), 
+  <br />and enhancing Developer Experience. Beyond professional interests, I enjoy travelling, and I'm a keen motorcyclist and rower."
   speaker_github_url: ""
   speaker_twitter_url: ""
   speaker_instagram_url: ""
@@ -18,7 +21,7 @@ speaker_1: &speaker
   is_mc: false
 
 speakers:
-  speaker_1: *speaker
+  speaker_1: *KingaGazdzinska
 
 tracks:
   track_1: &track_1
@@ -41,45 +44,48 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2025-03-13T09:00
     title: "Day 1"
     talks:
       talk_1:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
+        start_datetime: 2025-03-13T09:00
+        end_datetime: 2025-03-13T09:30
         talk_title: "Check-in"
       talk_2:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
+        start_datetime: 2025-03-13T13:00+02:00
+        end_datetime: 2025-03-13T14:30+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
       happy-hour:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
+        start_datetime: 2025-03-13T18:25+02:00
+        end_datetime: 2025-03-13T19:30+02:00
         talk_title: "Happy Hour"
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
+      # keynote:
+      #   item_type: "keynote"
+      #   track: *track_1
+      #   start_datetime: 2022-05-19T09:30+02:00
+      #   end_datetime: 2022-05-19T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+      BeforeItWasCool6YearsOfOurInternalDeveloperPortal:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        # start_datetime: 2025-03-13T10:25+02:00
+        # end_datetime: 2025-03-13T11:05+02:00
+        talk_title: "Before It Was Cool: 6 years of our Internal Developer Portal"
+        talk_description: "Around 2019, we were already quite advanced in introducing microservices architecture in an effort to replace our two monolithic systems within the largest HR tech company in Central and Eastern Europe. 
+        <br /><br />Therefore, we were painfully aware of the challenges of having dozens of developers trying to agilely build independent chunks of software that communicate with each other. This talk presents our journey in developing a custom command line tool that significantly reduced the time to set up new applications while enabling us to introduce standardization seamlessly from the developers' perspective. <br />
+        <br />
+        It will also include current alternatives and how we envision the future of our IDP"
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *KingaGazdzinska
