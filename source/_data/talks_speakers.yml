@@ -107,12 +107,12 @@ At Swissquote, he transitioned from a successful five-year tenure as a Java deve
   is_mc: false
 
 speakers:
-  speaker_1: *KingaGazdzinska
-  speaker_2: *GiorgiaRondinini
-  speaker_3: *MichelMurabito
-  speaker_4: *MarioEsposito
   speaker_5: *EdwigeFiaclou
+  speaker_2: *GiorgiaRondinini
   speaker_6: *GuillaumeProust
+  speaker_1: *KingaGazdzinska
+  speaker_4: *MarioEsposito
+  speaker_3: *MichelMurabito
 
 tracks:
   track_1: &track_1
