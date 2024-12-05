@@ -23,7 +23,7 @@ conference:
   contact_email: "dxday@grusp.org"
   # these are for the hero section
   title_pre: ""
-  title: "dxday - Developer Experience"
+  title: "dxday - Developer Experience Conference"
   city: "Bologna"
   date: 2025-03-13T10:00+02:00
   # Use the next field to override the date in the hero
@@ -96,7 +96,7 @@ conference:
   speakers_visible: true
   speakers_title: "speaker"
   mcs_title: "MC"
-  speaker_count_text:
+  speaker_count_text: "First speakers announced!"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
   topics_title: "Topics and themes"
@@ -124,21 +124,21 @@ conference:
   media_pic_3: "media3.jpg"
   media_pic_4: "media4.jpg"
   #   playlist: if true, the iframe will be created. if false, it will not
-  media_video_playlist: false
+  media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
   media_video_is_youtube: true
   youtube_base_url: "https://www.youtube.com/embed/videoseries?list="
-  vimeo_base_url: "https://vimeo.com/album/"
-  vimeo_url_suffix: "/embed"
+  # vimeo_base_url: "https://vimeo.com/album/"
+  # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unmgzGOw3cbjS8ID-b-cF1d9"
+  youtube_playlist_id: "PLWK9j6ps_unnWiOgokVOVTIVCTvSZc1LD&si=Y36psCrUU7rLGAeq"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italiandxday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
   location_visible: false
-  location_name: "Hotel San Marco"
-  location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
-  location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
+  location_name: "Hotel Savoia Regency"
+  location_address: "Via del Pilastro 2, 40127 Bologna (BO) Italy"
+  location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
   location_maps_label: "Get directions"
   location_readmore_label: "Read more"
   # image credits (l'esempio è per la hero del CSS Day!)

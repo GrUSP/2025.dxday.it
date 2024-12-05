@@ -28,11 +28,11 @@ more:
     <li><a href='https://www.productmanagementday.com/' target=_blank>Product Management Day</a>
     </p>
     Additionally, <strong>we are constantly looking for new speakers and topics!</strong> Check out our <a href='https://www.grusp.org/en/speakers/' target=_blank>[Call for Papers page]</a> and apply to become one of our next speakers!"
-#  content_2:  
-#  past_edition:
-#  title: "Guarda l'ultima edizione di Incontro DevOps Italia"
-#  video_url: "https://www.youtube.com/embed/videoseries?list=PLWK9j6ps_unnzawdRcS0h5O6if5f8mtCc"
-#  video_caption: "Guarda i video dell'ultima edizione"
+  content_2:
+past_edition:
+  title: ""
+  video_url: "https://www.youtube.com/embed/videoseries?list=PLWK9j6ps_unnWiOgokVOVTIVCTvSZc1LD&si=Y36psCrUU7rLGAeq"
+  video_caption: "Watch the videos from the past edition"
 team:
   title: "The team"
   intro: "We are a dynamic team of passionate individuals, blending diverse expertise in technology, creative arts, and community management. Our unique combination of skills allows us to innovate and connect effectively, driving forward our mission with enthusiasm and excellence."
