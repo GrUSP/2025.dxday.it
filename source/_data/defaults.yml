@@ -135,7 +135,7 @@ conference:
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italiandxday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  location_visible: false
+  location_visible: true
   location_name: "Hotel Savoia Regency"
   location_address: "Via del Pilastro 2, 40127 Bologna (BO) Italy"
   location_maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
