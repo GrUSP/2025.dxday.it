@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -11,7 +11,7 @@ speaker_1: &KingaGazdzinska
   speaker_role: "Software architect @ Grupa Pracuj"
   speaker_bio: "I'm a programmer and architect at Grupa Pracuj. <br />
   I have given presentations at multiple software conferences, e.g. Infoshare, .NET Developer Days, SFI IT Academic Festival. <br />
-  I'm interested in the impact of human factors on the architecture (e.g, Conway's law), tools that facilitate gathering and defining requirements (e.g., Event Storming), 
+  I'm interested in the impact of human factors on the architecture (e.g, Conway's law), tools that facilitate gathering and defining requirements (e.g., Event Storming),
   <br />and enhancing Developer Experience. Beyond professional interests, I enjoy travelling, and I'm a keen motorcyclist and rower."
   speaker_github_url: ""
   speaker_twitter_url: ""
@@ -25,7 +25,7 @@ speaker_2: &GiorgiaRondinini
   speaker_name: "Giorgia Rondinini"
   speaker_pic_filename: "GiorgiaRondinini.png"
   speaker_role: "Platform Engineer @ Imola Informatica"
-  speaker_bio: "Software Architecture, DevOps and Platform Engineering enthusiast, always in search of time and opportunities to learn something new. 
+  speaker_bio: "Software Architecture, DevOps and Platform Engineering enthusiast, always in search of time and opportunities to learn something new.
   <br /> My interests space from cloud to functional programming."
   speaker_github_url: "https://x.com/grondinini_"
   speaker_twitter_url: ""
@@ -39,9 +39,9 @@ speaker_3: &MichelMurabito
   speaker_name: "Michel Murabito "
   speaker_pic_filename: "MichelMurabito.jpg"
   speaker_role: "CNCF Ambassador & Developer Advocate @Mia-Platform"
-  speaker_bio: "I'm Michel Murabito, Mich to my friends! Born in 1986 in Turin with Sicilian roots, I now live in Milan. 
+  speaker_bio: "I'm Michel Murabito, Mich to my friends! Born in 1986 in Turin with Sicilian roots, I now live in Milan.
   <br />My journey in software began at 12, coding for fun. At 18, I started my first job as a software developer and have continuously sought new challenges to grow and learn. <br />
-<br /> 
+<br />
 Today, I'm a Developer Advocate at Mia-Platform and a Cloud Native Computing Foundation (CNCF) Ambassador, sharing my passion for cloud native technologies with a community of curious minds. Additionally, I founded the DevelopersLife community, which has over 800 members, where we discuss our profession and share experiences."
   speaker_github_url: "https://github.com/akelity"
   speaker_twitter_url: "https://twitter.com/michelmurabito"
@@ -77,10 +77,10 @@ speaker_5: &EdwigeFiaclou
   speaker_name: "Edwige Fiaclou"
   speaker_pic_filename: "EdwigeFiaclou.jpg"
   speaker_role: "Head Methodology Tech Talent @ Swissquote"
-  speaker_bio: "I'm an accomplished technologist deeply committed to promoting diversity and inclusion in STEM* (Science, Technology, Engineering and Mathematics). 
-  <br />I hold a BSc in mathematics and an MSc in Computer Science from the University Lyon 1 (France), with a FinTech oriented educational background. 
-  <br />With years of experience in various roles, including mobile development and banking applications, I have navigated through many technologies and business domains. 
-  <br />Since joining Swissquote in 2012, I have contributed to technical stacks and software delivery across multiple domains and layers, from Banking operations to Trading Systems Management. 
+  speaker_bio: "I'm an accomplished technologist deeply committed to promoting diversity and inclusion in STEM* (Science, Technology, Engineering and Mathematics).
+  <br />I hold a BSc in mathematics and an MSc in Computer Science from the University Lyon 1 (France), with a FinTech oriented educational background.
+  <br />With years of experience in various roles, including mobile development and banking applications, I have navigated through many technologies and business domains.
+  <br />Since joining Swissquote in 2012, I have contributed to technical stacks and software delivery across multiple domains and layers, from Banking operations to Trading Systems Management.
   <br />My unwavering dedication to excellence, best practices and innovative perspective earned her a promotion to Vice Director in 2022, where she now oversees Methodologies, Program Management and Tech Talent teams within Software Engineering.
 <br />Despite my many accomplishments, I remain eager to learn from others. I actively contributed to many talks, in Switzerland, or at International for Women In Tech or Lead Dev track!"
   speaker_github_url: ""
@@ -173,22 +173,22 @@ days:
         # start_datetime: 2025-03-13T10:25+02:00
         # end_datetime: 2025-03-13T11:05+02:00
         talk_title: "Before It Was Cool: 6 years of our Internal Developer Portal"
-        talk_description: "Around 2019, we were already quite advanced in introducing microservices architecture in an effort to replace our two monolithic systems within the largest HR tech company in Central and Eastern Europe. 
+        talk_description: "Around 2019, we were already quite advanced in introducing microservices architecture in an effort to replace our two monolithic systems within the largest HR tech company in Central and Eastern Europe.
         <br /><br />Therefore, we were painfully aware of the challenges of having dozens of developers trying to agilely build independent chunks of software that communicate with each other. This talk presents our journey in developing a custom command line tool that significantly reduced the time to set up new applications while enabling us to introduce standardization seamlessly from the developers' perspective. <br />
         <br />
         It will also include current alternatives and how we envision the future of our IDP"
         talk_video_url:
         speakers:
           speaker_1: *KingaGazdzinska
-      
+
       GitOpsSecretManagementAndHowDevelopersCanSurviveIt:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2025-03-13T11:10+02:00
         # end_datetime: 2025-03-13T11:50+02:00
         talk_title: "GitOps Secret Management and How Developers Can Survive It"
-        talk_description: "'I will remove it later after the local tests!' The last famous words, before a production secret is written, committed and pushed to a repository. 
-        <br />Secret management is hard in theory, harder when following GitOps principles, and in practice it is even worse for budget limits, technical limits, knowledge limits make implementing a secure and above all usable solution a challenge. 
+        talk_description: "'I will remove it later after the local tests!' The last famous words, before a production secret is written, committed and pushed to a repository.
+        <br />Secret management is hard in theory, harder when following GitOps principles, and in practice it is even worse for budget limits, technical limits, knowledge limits make implementing a secure and above all usable solution a challenge.
         <br />In this talk we will see common GitOps secret management patterns, with their pros and cons, and how they can be improved to offer a better experience to developers and infrastructure teams."
         talk_video_url:
         speakers:
@@ -232,8 +232,8 @@ By integrating these concepts, we aim to demonstrate how high-performing teams t
         # start_datetime: 2025-03-13T14:30+02:00
         # end_datetime: 2025-03-13T15:10+02:00
         talk_title: "Unlocking Potential: Transforming Onboarding into a Journey of Empowerment"
-        talk_description: "In the fast-paced world of software engineering, onboarding is no longer just a welcome; it’s an invitation to thrive, innovate, and transform. 
-        <br />At Swissquote, we've crafted something extraordinary with our Tech Talent Academy—an onboarding experience like no other. 
+        talk_description: "In the fast-paced world of software engineering, onboarding is no longer just a welcome; it’s an invitation to thrive, innovate, and transform.
+        <br />At Swissquote, we've crafted something extraordinary with our Tech Talent Academy—an onboarding experience like no other.
         <br />This immersive, three-month journey is designed to spark potential, ignite innovation, and set the stage for a truly inclusive workplace.
 Imagine an onboarding program that goes beyond the basics, one that’s purposefully designed to:
 <ul>
@@ -248,7 +248,7 @@ Join us as we share the heart of the Tech Talent Academy. Discover the strategie
         speakers:
           speaker_5: *EdwigeFiaclou
           speaker_6: *GuillaumeProust
-     
-  
 
-      
+
+
+
