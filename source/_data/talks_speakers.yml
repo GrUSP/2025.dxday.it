@@ -106,7 +106,23 @@ At Swissquote, he transitioned from a successful five-year tenure as a Java deve
   speaker_mastodon_url: ""
   is_mc: false
 
+
+speaker_7: &LouBichard
+  speaker_in_speaker_lists: true
+  speaker_name: "Lou Bichard"
+  speaker_pic_filename: "LouBichard.jpg"
+  speaker_role: "DX - Product Manager @ Gitpod"
+  speaker_bio: "I've been working in tech for over 10 years, starting out as a front-end engineer, then back-end, and later into cloud engineering and platform engineering in internal developer experience teams.
+   I now work on product at Gitpod."
+  speaker_github_url: "https://github.com/loujaybee"
+  speaker_twitter_url: "https://twitter.com/loujaybee"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/loujaybee/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
+  speaker_7: *LouBichard
   speaker_5: *EdwigeFiaclou
   speaker_2: *GiorgiaRondinini
   speaker_6: *GuillaumeProust
@@ -250,5 +266,14 @@ Join us as we share the heart of the Tech Talent Academy. Discover the strategie
           speaker_6: *GuillaumeProust
 
 
-
-
+      BeyondCopilotHowDeveloperToolsAreEvolvingFromEditorsToAgents:
+          item_type: "talk"
+          track: *track_1
+          # start_datetime: 2025-03-13T15:15+02:00
+          # end_datetime: 2025-03-13T15:55+02:00
+          talk_title: "Beyond Copilot: How Developer Tools Are Evolving from Editors to Agents"
+          talk_description: "The AI revolution in developer tooling is here. GitHub reported over 1M paid Copilot users. 50% of the latest YC batch are AI companies. And with Open AI landing over $6B in funding. It’s safe to say significant shifts are comnig. <br />But, where's the line between hype and reality? <br /> <br />
+          Join me for an honest, hype-free examination of the state of AI developer tooling. From reimagined editors like Cursor to AI-powered terminals like Warp to autonomous agents like Devin. We look at whether the future is in long-running agents or in hybrid approaches with humans-in-the-loop? And how we can benefit from this new reality in the decade ahead."
+          talk_video_url:
+          speakers:
+            speaker_7: *LouBichard
