@@ -9,18 +9,26 @@ sponsors_block_title: "Thanks for supporting the conference"
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
-gold:
-  sponsor0:
+platinum:
+  sponsor1:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
+gold:
+  sponsor2:
+    name: "Vianova"
+    logo_filename: "vianova.svg"
+    site_url: "https://www.vianova.it/"
 silver:
   sponsor1:
+    name: "Mia-Platform"
+    logo_filename: "miaplatform.svg"
+    site_url: "https://mia-platform.eu/it/"
+  sponsor2:
+    name: "SparkFabrik"
+    logo_filename: "sparkfabrik.svg"
+    site_url: "https://www.sparkfabrik.com/"
+  sponsor3:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
