@@ -21,14 +21,18 @@ gold:
     site_url: "https://www.vianova.it/"
 silver:
   sponsor1:
+    name: "Imola Informatica"
+    logo_filename: "imola-informatica.png"
+    site_url: "https://imolainformatica.it/"
+  sponsor2:
     name: "Mia-Platform"
     logo_filename: "miaplatform.svg"
     site_url: "https://mia-platform.eu/it/"
-  sponsor2:
+  sponsor3:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.svg"
     site_url: "https://www.sparkfabrik.com/"
-  sponsor3:
+  sponsor4:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"

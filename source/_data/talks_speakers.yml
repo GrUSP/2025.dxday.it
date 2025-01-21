@@ -38,7 +38,7 @@ speaker_3: &MichelMurabito
   speaker_in_speaker_lists: true
   speaker_name: "Michel Murabito "
   speaker_pic_filename: "MichelMurabito.jpg"
-  speaker_role: "CNCF Ambassador & Developer Advocate @Mia-Platform"
+  speaker_role: "CNCF Ambassador & Developer Advocate @ Mia-Platform"
   speaker_bio: "I'm Michel Murabito, Mich to my friends! Born in 1986 in Turin with Sicilian roots, I now live in Milan.
   <br />My journey in software began at 12, coding for fun. At 18, I started my first job as a software developer and have continuously sought new challenges to grow and learn. <br />
 <br />
@@ -128,7 +128,7 @@ speaker_8: &LeenaMooneeram
   speaker_pic_filename: "LeenaMooneeram.png"
   speaker_role: "Senior Platform Enginee @ Chainalysis"
   speaker_bio: "I'm a Senior Platform Engineer at Chainalysis, the blockchain data platform, with a mission to reduce friction and cognitive load for Chainalysis engineers.
-  <br /> I'm at the coalface of Developer Productivity and Developer Experience, working daily to optimize workflows and tools that make engineering smoother and more efficient. When not busy refining DevEx, Leena enjoys playing the flute exceptionally well and the ukulele… less so. <br /> 
+  <br /> I'm at the coalface of Developer Productivity and Developer Experience, working daily to optimize workflows and tools that make engineering smoother and more efficient. When not busy refining DevEx, Leena enjoys playing the flute exceptionally well and the ukulele… less so. <br />
   Passionate about building efficient, developer-friendly solutions, I'm always keen to connect with others committed to creating impactful developer experiences."
   speaker_github_url: ""
   speaker_twitter_url: ""
@@ -142,8 +142,8 @@ speaker_9: &DianaNanuti
   speaker_name: "Diana Nanuti"
   speaker_pic_filename: "DianaNanuti.png"
   speaker_role: "Senior Software Engineer @ Chainalysis"
-  speaker_bio: "I'm a Senior Software Engineer at Chainalysis with expertise in Cloud Infrastructure and Data Engineering. 
-  <br />Known for my keen ability to architect resilient, scalable data solutions, I bring a wealth of experience from building and maintaining infrastructure on top of cloud-native and open-source technologies. 
+  speaker_bio: "I'm a Senior Software Engineer at Chainalysis with expertise in Cloud Infrastructure and Data Engineering.
+  <br />Known for my keen ability to architect resilient, scalable data solutions, I bring a wealth of experience from building and maintaining infrastructure on top of cloud-native and open-source technologies.
   <br />At Chainalysis, I'mdeeply involved in ensuring that the backbone of the blockchain data platform operates with reliability and precision, especially under high-stakes conditions. In this talk, Diana will share her hands-on insights into incident management, focusing on how robust runbooks and strategic automation can make all the difference."
   speaker_github_url: "https://github.com/dnanuti"
   speaker_twitter_url: ""
@@ -165,17 +165,30 @@ I love building and enabling high performing teams and I have been doing this fo
   speaker_instagram_url: ""
   speaker_linkedin_url: "https://www.linkedin.com/in/eugeniopombi/"
 
+speaker_11: &CirpoCinelli
+  speaker_in_speaker_lists: true
+  speaker_name: Cirpo Cinelli
+  speaker_pic_filename: CirpoCinelli.png
+  speaker_role: "MASTER OF CEREMONIES - Engineering Manager @ Samsara"
+  speaker_bio: "Cirpo is an Engineering Manager at Samsara, supporting the OPX, Operational Execellence team in Core Infra. <br />
+     He has been working in the Developer Experience space for the past 6 years, starting at DAZN and Spotify <br /> "
+  speaker_linkedin_url: "https://www.linkedin.com/in/cirpo/"
+  is_mc: true
+
+
 speakers:
-  speaker_9: *DianaNanuti
-  speaker_5: *EdwigeFiaclou
-  speaker_10: *EugenioPombi
-  speaker_2: *GiorgiaRondinini
-  speaker_6: *GuillaumeProust
-  speaker_1: *KingaGazdzinska
-  speaker_8: *LeenaMooneeram
   speaker_7: *LouBichard
   speaker_4: *MarioEsposito
+  speaker_5: *EdwigeFiaclou
+  speaker_1: *KingaGazdzinska
+  speaker_8: *LeenaMooneeram
   speaker_3: *MichelMurabito
+  speaker_9: *DianaNanuti
+  speaker_10: *EugenioPombi
+  speaker_6: *GuillaumeProust
+  speaker_2: *GiorgiaRondinini
+  speaker_11: *CirpoCinelli
+
 
 tracks:
   track_1: &track_1
@@ -230,46 +243,18 @@ days:
       #   talk_video_url:
       #   speakers:
       #     speaker_1: *speaker
-      BeforeItWasCool6YearsOfOurInternalDeveloperPortal:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-03-13T10:25+02:00
-        # end_datetime: 2025-03-13T11:05+02:00
-        talk_title: "Before It Was Cool: 6 years of our Internal Developer Portal"
-        talk_description: "Around 2019, we were already quite advanced in introducing microservices architecture in an effort to replace our two monolithic systems within the largest HR tech company in Central and Eastern Europe.
-        <br /><br />Therefore, we were painfully aware of the challenges of having dozens of developers trying to agilely build independent chunks of software that communicate with each other. This talk presents our journey in developing a custom command line tool that significantly reduced the time to set up new applications while enabling us to introduce standardization seamlessly from the developers' perspective. <br />
-        <br />
-        It will also include current alternatives and how we envision the future of our IDP"
-        talk_video_url:
-        speakers:
-          speaker_1: *KingaGazdzinska
 
-      GitOpsSecretManagementAndHowDevelopersCanSurviveIt:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-03-13T11:10+02:00
-        # end_datetime: 2025-03-13T11:50+02:00
-        talk_title: "GitOps Secret Management and How Developers Can Survive It"
-        talk_description: "'I will remove it later after the local tests!' The last famous words, before a production secret is written, committed and pushed to a repository.
-        <br />Secret management is hard in theory, harder when following GitOps principles, and in practice it is even worse for budget limits, technical limits, knowledge limits make implementing a secure and above all usable solution a challenge.
-        <br />In this talk we will see common GitOps secret management patterns, with their pros and cons, and how they can be improved to offer a better experience to developers and infrastructure teams."
-        talk_video_url:
-        speakers:
-          speaker_2: *GiorgiaRondinini
-
-      CreatingASmoothDeveloperExperienceFromComplexityToSimplicity:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2025-03-13T11:55+02:00
-        # end_datetime: 2025-03-13T12:35+02:00
-        talk_title: "Creating a Smooth Developer Experience: From Complexity to Simplicity"
-        talk_description: "In the Cloud Native ecosystem reducing cognitive load is essential for a productive and fulfilling Developer Experience (DevX). <br /> <br />
-        This talk explores how Platform Engineering can alleviate cognitive load through automation and self-service access, allowing developers to navigate complex environments without excessive friction. Leveraging metrics like DORA and SPACE to track, understand and optimize team workflows, we’ll examine how to enhance DevX by minimizing interruptions and context switching.
-        <br /> <br />
-        We’ll share concrete strategies to create cloud-native environments that simplify complexity, enabling developers to focus on what truly matters and fostering a sustainable, purpose-driven development culture."
-        talk_video_url:
-        speakers:
-          speaker_3: *MichelMurabito
+      BeyondCopilotHowDeveloperToolsAreEvolvingFromEditorsToAgents:
+          item_type: "talk"
+          track: *track_1
+          # start_datetime: 2025-03-13T15:15+02:00
+          # end_datetime: 2025-03-13T15:55+02:00
+          talk_title: "Beyond Copilot: How Developer Tools Are Evolving from Editors to Agents"
+          talk_description: "The AI revolution in developer tooling is here. GitHub reported over 1M paid Copilot users. 50% of the latest YC batch are AI companies. And with Open AI landing over $6B in funding. It’s safe to say significant shifts are comnig. <br />But, where's the line between hype and reality? <br /> <br />
+          Join me for an honest, hype-free examination of the state of AI developer tooling. From reimagined editors like Cursor to AI-powered terminals like Warp to autonomous agents like Devin. We look at whether the future is in long-running agents or in hybrid approaches with humans-in-the-loop? And how we can benefit from this new reality in the decade ahead."
+          talk_video_url:
+          speakers:
+            speaker_7: *LouBichard
 
 
       EnhancingSoftwareDeliveryOptimizingValueStreamsThroughDORAAndPlatformEngineering:
@@ -313,18 +298,20 @@ Join us as we share the heart of the Tech Talent Academy. Discover the strategie
           speaker_6: *GuillaumeProust
 
 
-      BeyondCopilotHowDeveloperToolsAreEvolvingFromEditorsToAgents:
-          item_type: "talk"
-          track: *track_1
-          # start_datetime: 2025-03-13T15:15+02:00
-          # end_datetime: 2025-03-13T15:55+02:00
-          talk_title: "Beyond Copilot: How Developer Tools Are Evolving from Editors to Agents"
-          talk_description: "The AI revolution in developer tooling is here. GitHub reported over 1M paid Copilot users. 50% of the latest YC batch are AI companies. And with Open AI landing over $6B in funding. It’s safe to say significant shifts are comnig. <br />But, where's the line between hype and reality? <br /> <br />
-          Join me for an honest, hype-free examination of the state of AI developer tooling. From reimagined editors like Cursor to AI-powered terminals like Warp to autonomous agents like Devin. We look at whether the future is in long-running agents or in hybrid approaches with humans-in-the-loop? And how we can benefit from this new reality in the decade ahead."
-          talk_video_url:
-          speakers:
-            speaker_7: *LouBichard
 
+      BeforeItWasCool6YearsOfOurInternalDeveloperPortal:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-03-13T10:25+02:00
+        # end_datetime: 2025-03-13T11:05+02:00
+        talk_title: "Before It Was Cool: 6 years of our Internal Developer Portal"
+        talk_description: "Around 2019, we were already quite advanced in introducing microservices architecture in an effort to replace our two monolithic systems within the largest HR tech company in Central and Eastern Europe.
+        <br /><br />Therefore, we were painfully aware of the challenges of having dozens of developers trying to agilely build independent chunks of software that communicate with each other. This talk presents our journey in developing a custom command line tool that significantly reduced the time to set up new applications while enabling us to introduce standardization seamlessly from the developers' perspective. <br />
+        <br />
+        It will also include current alternatives and how we envision the future of our IDP"
+        talk_video_url:
+        speakers:
+          speaker_1: *KingaGazdzinska
 
       NextLevelRunbookEssentialToolsForDeveloperProductivityAndResilience:
         item_type: "talk"
@@ -332,8 +319,8 @@ Join us as we share the heart of the Tech Talent Academy. Discover the strategie
         # start_datetime: 2025-03-13T16:00+02:00
         # end_datetime: 2025-03-13T16:40+02:00
         talk_title: "Next-Level Runbook: Essential Tools for Developer Productivity and Resilience"
-        talk_description: "Runbooks are the backbone of reliable incident response, but are your runbooks built to keep developers productive and resilient in a 24/7 operational world? In this talk, we’ll guide you through transforming runbooks into streamlined, high-impact tools that both empower developers and drive productivity gains across your teams. We’ll explore the critical balance of detail versus simplicity, how to build runbooks as code, and why consistency and ownership are crucial for alignment across DevEx and Dev Prod teams. 
-        <br /> <br /> 
+        talk_description: "Runbooks are the backbone of reliable incident response, but are your runbooks built to keep developers productive and resilient in a 24/7 operational world? In this talk, we’ll guide you through transforming runbooks into streamlined, high-impact tools that both empower developers and drive productivity gains across your teams. We’ll explore the critical balance of detail versus simplicity, how to build runbooks as code, and why consistency and ownership are crucial for alignment across DevEx and Dev Prod teams.
+        <br /> <br />
         Covering everything from dashboards that track meaningful metrics to next-generation AI features, we’ll walk through the anatomy of runbooks that work - and those that don’t. Learn how to craft runbooks that don’t just sit idle until the next incident but evolve with every touchpoint, staying relevant and impactful. <br />
         This session offers practical insights into turning runbooks into assets that save time and reduce stress, even in high-stakes environments."
         talk_video_url:
@@ -341,7 +328,20 @@ Join us as we share the heart of the Tech Talent Academy. Discover the strategie
           speaker_8: *LeenaMooneeram
           speaker_9: *DianaNanuti
 
-      
+      CreatingASmoothDeveloperExperienceFromComplexityToSimplicity:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-03-13T11:55+02:00
+        # end_datetime: 2025-03-13T12:35+02:00
+        talk_title: "Creating a Smooth Developer Experience: From Complexity to Simplicity"
+        talk_description: "In the Cloud Native ecosystem reducing cognitive load is essential for a productive and fulfilling Developer Experience (DevX). <br /> <br />
+        This talk explores how Platform Engineering can alleviate cognitive load through automation and self-service access, allowing developers to navigate complex environments without excessive friction. Leveraging metrics like DORA and SPACE to track, understand and optimize team workflows, we’ll examine how to enhance DevX by minimizing interruptions and context switching.
+        <br /> <br />
+        We’ll share concrete strategies to create cloud-native environments that simplify complexity, enabling developers to focus on what truly matters and fostering a sustainable, purpose-driven development culture."
+        talk_video_url:
+        speakers:
+          speaker_3: *MichelMurabito
+
       FromSkepticismToEngagementBuildingADeveloperExperienceProgram:
         item_type: "talk"
         track: *track_1
@@ -352,3 +352,17 @@ Join us as we share the heart of the Tech Talent Academy. Discover the strategie
         talk_video_url:
         speakers:
           speaker_10: *EugenioPombi
+
+
+      GitOpsSecretManagementAndHowDevelopersCanSurviveIt:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2025-03-13T11:10+02:00
+        # end_datetime: 2025-03-13T11:50+02:00
+        talk_title: "GitOps Secret Management and How Developers Can Survive It"
+        talk_description: "'I will remove it later after the local tests!' The last famous words, before a production secret is written, committed and pushed to a repository.
+        <br />Secret management is hard in theory, harder when following GitOps principles, and in practice it is even worse for budget limits, technical limits, knowledge limits make implementing a secure and above all usable solution a challenge.
+        <br />In this talk we will see common GitOps secret management patterns, with their pros and cons, and how they can be improved to offer a better experience to developers and infrastructure teams."
+        talk_video_url:
+        speakers:
+          speaker_2: *GiorgiaRondinini
