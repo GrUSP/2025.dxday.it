@@ -1,9 +1,9 @@
 sponsors_block_title: "Thanks for supporting the conference"
-# main:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+main:
+  sponsor1:
+    name: "docebo"
+    logo_filename: "docebo.svg"
+    site_url: "https://www.docebo.com/"
 # diamond:
 #   sponsor1:
 #     name: ""
