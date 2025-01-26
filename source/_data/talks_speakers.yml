@@ -219,80 +219,12 @@ days:
         start_datetime: 2025-03-13T09:00+01:00
         end_datetime: 2025-03-13T09:25+01:00
         talk_title: "Check-in"
+
       opening:
         item_type: "service"
         start_datetime: 2025-03-13T09:30+01:00
         end_datetime: 2025-03-13T09:40+01:00
         talk_title: "Opening by GrUSP"
-      lucnh_break:
-        item_type: "service"
-        start_datetime: 2025-03-13T13:00+01:00
-        end_datetime: 2025-03-13T14:15+01:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
-      coffee_break_morning:
-        item_type: "service"
-        start_datetime: 2025-03-13T11:10+01:00
-        end_datetime: 2025-03-13T11:40+01:00
-        talk_title: "coffee break"
-        service_icon: "coffee"
-      coffee_break_afternoon:
-        item_type: "service"
-        start_datetime: 2025-03-13T15:45+01:00
-        end_datetime: 2025-03-13T16:15+01:00
-        talk_title: "coffee break"
-        service_icon: "coffee"
-      closing:
-        item_type: "service"
-        start_datetime: 2025-03-13T17:45+01:00
-        end_datetime: 2025-03-13T17:55+01:00
-        talk_title: "Closing by GrUSP"
-
-      BeyondCopilotHowDeveloperToolsAreEvolvingFromEditorsToAgents:
-          item_type: "talk"
-          track: *track_1
-          start_datetime: 2025-03-13T15:00+01:00
-          end_datetime: 2025-03-13T15:45+01:00
-          talk_title: "Beyond Copilot: How Developer Tools Are Evolving from Editors to Agents"
-          talk_description: >-
-            The AI revolution in developer tooling is here. GitHub reported over 1M paid Copilot users. 
-            50% of the latest YC batch are AI companies. And with Open AI landing over $6B in funding. 
-            It's safe to say significant shifts are comnig. <br />But, where's the line between hype and reality? <br /> <br />
-            Join me for an honest, hype-free examination of the state of AI developer tooling. From reimagined 
-            editors like Cursor to AI-powered terminals like Warp to autonomous agents like Devin. We look at 
-            whether the future is in long-running agents or in hybrid approaches with humans-in-the-loop? And 
-            how we can benefit from this new reality in the decade ahead.
-          talk_video_url: ""
-          speakers:
-            speaker_7: *LouBichard
-
-
-      EnhancingSoftwareDeliveryOptimizingValueStreamsThroughDORAAndPlatformEngineering:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2025-03-13T10:25+01:00
-        end_datetime: 2025-03-13T11:10+01:00
-        talk_title: "Enhancing Software Delivery: Optimizing Value Streams through DORA and Platform Engineering"
-        talk_description: >-
-          In this talk, we will explore the synergy between DORA metrics, Value Stream Management (VSM), and Platform Engineering, 
-          illustrating how these frameworks collectively enhance software delivery in product-based companies. By leveraging DORA 
-          metrics—such as deployment frequency and lead time for changes—teams can quantitatively assess and improve their performance, 
-          aligning their efforts with business goals to ensure both speed and stability are achieved without compromise. <br /> <br />
-          We will explore how VSM provides a holistic view of the software delivery process, enabling teams to identify bottlenecks 
-          and optimize the flow of value from ideation to user delivery. This approach not only reduces waste but also aligns 
-          development activities with strategic objectives, ensuring that every step adds value to the customer experience. <br /> <br />
-          Furthermore, we will discuss the role of Platform Engineering in organizing development teams and tools. By implementing 
-          Internal Development Platforms (IDPs), organizations can reduce cognitive load, streamline operations, and foster a culture 
-          of collaboration. Platform Engineering standardizes workflows and tools, enabling teams to focus on innovation rather than 
-          infrastructure management. <br /> <br />
-          Drawing from Team Topologies, we will highlight the importance of socio-technical systems where collaboration and 
-          communication are paramount. This perspective emphasizes that technical excellence is intertwined with effective team 
-          dynamics and cognitive load management. <br /> <br />
-          By integrating these concepts, we aim to demonstrate how high-performing teams thrive at the intersection of technology 
-          and collaboration, ultimately enhancing their ability to deliver continuous value to customers.
-        talk_video_url: ""
-        speakers:
-          speaker_4: *MarioEsposito
 
       UnlockingPotentialTransformingOnboardingIntoAJourneyOfEmpowerment:
         item_type: "talk"
@@ -321,24 +253,39 @@ days:
           speaker_5: *EdwigeFiaclou
           speaker_6: *GuillaumeProust
 
-
-
-      BeforeItWasCool6YearsOfOurInternalDeveloperPortal:
+      EnhancingSoftwareDeliveryOptimizingValueStreamsThroughDORAAndPlatformEngineering:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2025-03-13T14:15+01:00
-        end_datetime: 2025-03-13T15:00+01:00
-        talk_title: "Before It Was Cool: 6 years of our Internal Developer Portal"
+        start_datetime: 2025-03-13T10:25+01:00
+        end_datetime: 2025-03-13T11:10+01:00
+        talk_title: "Enhancing Software Delivery: Optimizing Value Streams through DORA and Platform Engineering"
         talk_description: >-
-          Around 2019, we were already quite advanced in introducing microservices architecture in an effort to replace our two 
-          monolithic systems within the largest HR tech company in Central and Eastern Europe. <br /><br />Therefore, we were 
-          painfully aware of the challenges of having dozens of developers trying to agilely build independent chunks of software 
-          that communicate with each other. This talk presents our journey in developing a custom command line tool that significantly 
-          reduced the time to set up new applications while enabling us to introduce standardization seamlessly from the developers' 
-          perspective. <br /><br />It will also include current alternatives and how we envision the future of our IDP
+          In this talk, we will explore the synergy between DORA metrics, Value Stream Management (VSM), and Platform Engineering, 
+          illustrating how these frameworks collectively enhance software delivery in product-based companies. By leveraging DORA 
+          metrics—such as deployment frequency and lead time for changes—teams can quantitatively assess and improve their performance, 
+          aligning their efforts with business goals to ensure both speed and stability are achieved without compromise. <br /> <br />
+          We will explore how VSM provides a holistic view of the software delivery process, enabling teams to identify bottlenecks 
+          and optimize the flow of value from ideation to user delivery. This approach not only reduces waste but also aligns 
+          development activities with strategic objectives, ensuring that every step adds value to the customer experience. <br /> <br />
+          Furthermore, we will discuss the role of Platform Engineering in organizing development teams and tools. By implementing 
+          Internal Development Platforms (IDPs), organizations can reduce cognitive load, streamline operations, and foster a culture 
+          of collaboration. Platform Engineering standardizes workflows and tools, enabling teams to focus on innovation rather than 
+          infrastructure management. <br /> <br />
+          Drawing from Team Topologies, we will highlight the importance of socio-technical systems where collaboration and 
+          communication are paramount. This perspective emphasizes that technical excellence is intertwined with effective team 
+          dynamics and cognitive load management. <br /> <br />
+          By integrating these concepts, we aim to demonstrate how high-performing teams thrive at the intersection of technology 
+          and collaboration, ultimately enhancing their ability to deliver continuous value to customers.
         talk_video_url: ""
         speakers:
-          speaker_1: *KingaGazdzinska
+          speaker_4: *MarioEsposito
+
+      coffee_break_morning:
+        item_type: "service"
+        start_datetime: 2025-03-13T11:10+01:00
+        end_datetime: 2025-03-13T11:40+01:00
+        talk_title: "coffee break"
+        service_icon: "coffee"
 
       NextLevelRunbookEssentialToolsForDeveloperProductivityAndResilience:
         item_type: "talk"
@@ -381,20 +328,54 @@ days:
         speakers:
           speaker_3: *MichelMurabito
 
-      FromSkepticismToEngagementBuildingADeveloperExperienceProgram:
+      lucnh_break:
+        item_type: "service"
+        start_datetime: 2025-03-13T13:00+01:00
+        end_datetime: 2025-03-13T14:15+01:00
+        talk_title: "Lunch break"
+        service_icon: "cutlery"
+
+      BeforeItWasCool6YearsOfOurInternalDeveloperPortal:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2025-03-13T17:00+01:00
-        end_datetime: 2025-03-13T17:45+01:00
-        talk_title: "From Skepticism to Engagement: Building a Developer Experience Program"
+        start_datetime: 2025-03-13T14:15+01:00
+        end_datetime: 2025-03-13T15:00+01:00
+        talk_title: "Before It Was Cool: 6 years of our Internal Developer Portal"
         talk_description: >-
-          Developer Experience (DX) has emerged as a critical factor in fostering collaboration and productivity within engineering 
-          teams. At Docebo, we recently embarked on a journey to introduce a comprehensive DX program, and in this session, we'll 
-          share our experiences, insights, and lessons learned.
+          Around 2019, we were already quite advanced in introducing microservices architecture in an effort to replace our two 
+          monolithic systems within the largest HR tech company in Central and Eastern Europe. <br /><br />Therefore, we were 
+          painfully aware of the challenges of having dozens of developers trying to agilely build independent chunks of software 
+          that communicate with each other. This talk presents our journey in developing a custom command line tool that significantly 
+          reduced the time to set up new applications while enabling us to introduce standardization seamlessly from the developers' 
+          perspective. <br /><br />It will also include current alternatives and how we envision the future of our IDP
         talk_video_url: ""
         speakers:
-          speaker_10: *EugenioPombi
+          speaker_1: *KingaGazdzinska
 
+      BeyondCopilotHowDeveloperToolsAreEvolvingFromEditorsToAgents:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-03-13T15:00+01:00
+        end_datetime: 2025-03-13T15:45+01:00
+        talk_title: "Beyond Copilot: How Developer Tools Are Evolving from Editors to Agents"
+        talk_description: >-
+          The AI revolution in developer tooling is here. GitHub reported over 1M paid Copilot users. 
+          50% of the latest YC batch are AI companies. And with Open AI landing over $6B in funding. 
+          It's safe to say significant shifts are comnig. <br />But, where's the line between hype and reality? <br /> <br />
+          Join me for an honest, hype-free examination of the state of AI developer tooling. From reimagined 
+          editors like Cursor to AI-powered terminals like Warp to autonomous agents like Devin. We look at 
+          whether the future is in long-running agents or in hybrid approaches with humans-in-the-loop? And 
+          how we can benefit from this new reality in the decade ahead.
+        talk_video_url: ""
+        speakers:
+          speaker_7: *LouBichard
+
+      coffee_break_afternoon:
+        item_type: "service"
+        start_datetime: 2025-03-13T15:45+01:00
+        end_datetime: 2025-03-13T16:15+01:00
+        talk_title: "coffee break"
+        service_icon: "coffee"
 
       GitOpsSecretManagementAndHowDevelopersCanSurviveIt:
         item_type: "talk"
@@ -411,3 +392,23 @@ days:
         talk_video_url: ""
         speakers:
           speaker_2: *GiorgiaRondinini
+
+      FromSkepticismToEngagementBuildingADeveloperExperienceProgram:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2025-03-13T17:00+01:00
+        end_datetime: 2025-03-13T17:45+01:00
+        talk_title: "From Skepticism to Engagement: Building a Developer Experience Program"
+        talk_description: >-
+          Developer Experience (DX) has emerged as a critical factor in fostering collaboration and productivity within engineering 
+          teams. At Docebo, we recently embarked on a journey to introduce a comprehensive DX program, and in this session, we'll 
+          share our experiences, insights, and lessons learned.
+        talk_video_url: ""
+        speakers:
+          speaker_10: *EugenioPombi
+
+      closing:
+        item_type: "service"
+        start_datetime: 2025-03-13T17:45+01:00
+        end_datetime: 2025-03-13T17:55+01:00
+        talk_title: "Closing by GrUSP"
