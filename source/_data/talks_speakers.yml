@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -194,12 +194,12 @@ tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
+  # track_2: &track_2
+  #   id: 2
+  #   title: "Track 2"
+  # track_3: &track_3
+  #   id: 3
+  #   title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -211,44 +211,48 @@ tracks:
 
 days:
   day_1:
-    date: 2025-03-13T09:00
+    date: 2025-03-13T09:00+01:00
     title: "Day 1"
     talks:
-      talk_1:
+      check-in:
         item_type: "service"
-        start_datetime: 2025-03-13T09:00
-        end_datetime: 2025-03-13T09:30
+        start_datetime: 2025-03-13T09:00+01:00
+        end_datetime: 2025-03-13T09:25+01:00
         talk_title: "Check-in"
-      talk_2:
+      opening:
         item_type: "service"
-        start_datetime: 2025-03-13T13:00+02:00
-        end_datetime: 2025-03-13T14:30+02:00
+        start_datetime: 2025-03-13T09:30+01:00
+        end_datetime: 2025-03-13T09:40+01:00
+        talk_title: "Opening by GrUSP"
+      lucnh_break:
+        item_type: "service"
+        start_datetime: 2025-03-13T13:00+01:00
+        end_datetime: 2025-03-13T14:15+01:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      happy-hour:
+      coffee_break_morning:
         item_type: "service"
-        start_datetime: 2025-03-13T18:25+02:00
-        end_datetime: 2025-03-13T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
-
-      # talk
-      # keynote:
-      #   item_type: "keynote"
-      #   track: *track_1
-      #   start_datetime: 2022-05-19T09:30+02:00
-      #   end_datetime: 2022-05-19T10:25+02:00
-      #   talk_title: ""
-      #   talk_description: ""
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_1: *speaker
+        start_datetime: 2025-03-13T11:10+01:00
+        end_datetime: 2025-03-13T11:40+01:00
+        talk_title: "coffee break"
+        service_icon: "coffee"
+      coffee_break_afternoon:
+        item_type: "service"
+        start_datetime: 2025-03-13T15:45+01:00
+        end_datetime: 2025-03-13T16:15+01:00
+        talk_title: "coffee break"
+        service_icon: "coffee"
+      closing:
+        item_type: "service"
+        start_datetime: 2025-03-13T17:45+01:00
+        end_datetime: 2025-03-13T17:55+01:00
+        talk_title: "Closing by GrUSP"
 
       BeyondCopilotHowDeveloperToolsAreEvolvingFromEditorsToAgents:
           item_type: "talk"
           track: *track_1
-          # start_datetime: 2025-03-13T15:15+02:00
-          # end_datetime: 2025-03-13T15:55+02:00
+          start_datetime: 2025-03-13T15:00+01:00
+          end_datetime: 2025-03-13T15:45+01:00
           talk_title: "Beyond Copilot: How Developer Tools Are Evolving from Editors to Agents"
           talk_description: "The AI revolution in developer tooling is here. GitHub reported over 1M paid Copilot users. 50% of the latest YC batch are AI companies. And with Open AI landing over $6B in funding. It’s safe to say significant shifts are comnig. <br />But, where's the line between hype and reality? <br /> <br />
           Join me for an honest, hype-free examination of the state of AI developer tooling. From reimagined editors like Cursor to AI-powered terminals like Warp to autonomous agents like Devin. We look at whether the future is in long-running agents or in hybrid approaches with humans-in-the-loop? And how we can benefit from this new reality in the decade ahead."
@@ -260,8 +264,8 @@ days:
       EnhancingSoftwareDeliveryOptimizingValueStreamsThroughDORAAndPlatformEngineering:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-03-13T12:40+02:00
-        # end_datetime: 2025-03-13T13:20+02:00
+        start_datetime: 2025-03-13T10:25+01:00
+        end_datetime: 2025-03-13T11:10+01:00
         talk_title: "Enhancing Software Delivery: Optimizing Value Streams through DORA and Platform Engineering"
         talk_description: "In this talk, we will explore the synergy between DORA metrics, Value Stream Management (VSM), and Platform Engineering, illustrating how these frameworks collectively enhance software delivery in product-based companies. By leveraging DORA metrics—such as deployment frequency and lead time for changes—teams can quantitatively assess and improve their performance, aligning their efforts with business goals to ensure both speed and stability are achieved without compromise. <br /> <br />
         We will explore how VSM provides a holistic view of the software delivery process, enabling teams to identify bottlenecks and optimize the flow of value from ideation to user delivery. This approach not only reduces waste but also aligns development activities with strategic objectives, ensuring that every step adds value to the customer experience. <br /> <br />
@@ -277,8 +281,8 @@ By integrating these concepts, we aim to demonstrate how high-performing teams t
       UnlockingPotentialTransformingOnboardingIntoAJourneyOfEmpowerment:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-03-13T14:30+02:00
-        # end_datetime: 2025-03-13T15:10+02:00
+        start_datetime: 2025-03-13T09:40+01:00
+        end_datetime: 2025-03-13T10:25+01:00
         talk_title: "Unlocking Potential: Transforming Onboarding into a Journey of Empowerment"
         talk_description: "In the fast-paced world of software engineering, onboarding is no longer just a welcome; it’s an invitation to thrive, innovate, and transform.
         <br />At Swissquote, we've crafted something extraordinary with our Tech Talent Academy—an onboarding experience like no other.
@@ -302,8 +306,8 @@ Join us as we share the heart of the Tech Talent Academy. Discover the strategie
       BeforeItWasCool6YearsOfOurInternalDeveloperPortal:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-03-13T10:25+02:00
-        # end_datetime: 2025-03-13T11:05+02:00
+        start_datetime: 2025-03-13T14:15+01:00
+        end_datetime: 2025-03-13T15:00+01:00
         talk_title: "Before It Was Cool: 6 years of our Internal Developer Portal"
         talk_description: "Around 2019, we were already quite advanced in introducing microservices architecture in an effort to replace our two monolithic systems within the largest HR tech company in Central and Eastern Europe.
         <br /><br />Therefore, we were painfully aware of the challenges of having dozens of developers trying to agilely build independent chunks of software that communicate with each other. This talk presents our journey in developing a custom command line tool that significantly reduced the time to set up new applications while enabling us to introduce standardization seamlessly from the developers' perspective. <br />
@@ -316,8 +320,8 @@ Join us as we share the heart of the Tech Talent Academy. Discover the strategie
       NextLevelRunbookEssentialToolsForDeveloperProductivityAndResilience:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-03-13T16:00+02:00
-        # end_datetime: 2025-03-13T16:40+02:00
+        start_datetime: 2025-03-13T11:40+01:00
+        end_datetime: 2025-03-13T12:20+01:00
         talk_title: "Next-Level Runbook: Essential Tools for Developer Productivity and Resilience"
         talk_description: "Runbooks are the backbone of reliable incident response, but are your runbooks built to keep developers productive and resilient in a 24/7 operational world? In this talk, we’ll guide you through transforming runbooks into streamlined, high-impact tools that both empower developers and drive productivity gains across your teams. We’ll explore the critical balance of detail versus simplicity, how to build runbooks as code, and why consistency and ownership are crucial for alignment across DevEx and Dev Prod teams.
         <br /> <br />
@@ -331,8 +335,8 @@ Join us as we share the heart of the Tech Talent Academy. Discover the strategie
       CreatingASmoothDeveloperExperienceFromComplexityToSimplicity:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-03-13T11:55+02:00
-        # end_datetime: 2025-03-13T12:35+02:00
+        start_datetime: 2025-03-13T12:20+01:00
+        end_datetime: 2025-03-13T13:00+01:00
         talk_title: "Creating a Smooth Developer Experience: From Complexity to Simplicity"
         talk_description: "In the Cloud Native ecosystem reducing cognitive load is essential for a productive and fulfilling Developer Experience (DevX). <br /> <br />
         This talk explores how Platform Engineering can alleviate cognitive load through automation and self-service access, allowing developers to navigate complex environments without excessive friction. Leveraging metrics like DORA and SPACE to track, understand and optimize team workflows, we’ll examine how to enhance DevX by minimizing interruptions and context switching.
@@ -345,8 +349,8 @@ Join us as we share the heart of the Tech Talent Academy. Discover the strategie
       FromSkepticismToEngagementBuildingADeveloperExperienceProgram:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-03-13T16:45+02:00
-        # end_datetime: 2025-03-13T17:25+02:00
+        start_datetime: 2025-03-13T17:00+01:00
+        end_datetime: 2025-03-13T17:45+01:00
         talk_title: "From Skepticism to Engagement: Building a Developer Experience Program"
         talk_description: "Developer Experience (DX) has emerged as a critical factor in fostering collaboration and productivity within engineering teams. At Docebo, we recently embarked on a journey to introduce a comprehensive DX program, and in this session, we’ll share our experiences, insights, and lessons learned."
         talk_video_url:
@@ -357,8 +361,8 @@ Join us as we share the heart of the Tech Talent Academy. Discover the strategie
       GitOpsSecretManagementAndHowDevelopersCanSurviveIt:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2025-03-13T11:10+02:00
-        # end_datetime: 2025-03-13T11:50+02:00
+        start_datetime: 2025-03-13T16:15+01:00
+        end_datetime: 2025-03-13T17:00+01:00
         talk_title: "GitOps Secret Management and How Developers Can Survive It"
         talk_description: "'I will remove it later after the local tests!' The last famous words, before a production secret is written, committed and pushed to a repository.
         <br />Secret management is hard in theory, harder when following GitOps principles, and in practice it is even worse for budget limits, technical limits, knowledge limits make implementing a secure and above all usable solution a challenge.
