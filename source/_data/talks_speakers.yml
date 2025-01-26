@@ -185,16 +185,16 @@ speaker_11: &CirpoCinelli
   is_mc: true
 
 speakers:
-  speaker_7: *LouBichard
-  speaker_4: *MarioEsposito
   speaker_5: *EdwigeFiaclou
-  speaker_1: *KingaGazdzinska
-  speaker_8: *LeenaMooneeram
-  speaker_3: *MichelMurabito
-  speaker_9: *DianaNanuti
-  speaker_10: *EugenioPombi
   speaker_6: *GuillaumeProust
+  speaker_4: *MarioEsposito
+  speaker_8: *LeenaMooneeram
+  speaker_9: *DianaNanuti
+  speaker_3: *MichelMurabito
+  speaker_1: *KingaGazdzinska
+  speaker_7: *LouBichard
   speaker_2: *GiorgiaRondinini
+  speaker_10: *EugenioPombi
   speaker_11: *CirpoCinelli
 
 tracks:
