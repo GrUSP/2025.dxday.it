@@ -223,26 +223,26 @@ days:
     talks:
       check-in:
         item_type: "service"
-        start_datetime: 2025-03-13T09:00+01:00
-        end_datetime: 2025-03-13T09:25+01:00
-        talk_title: "Check-in"
+        start_datetime: 2025-03-13T08:50+01:00
+        end_datetime: 2025-03-13T09:35+01:00
+        talk_title: "Check-in - collect your badge"
 
       opening:
         item_type: "service"
-        start_datetime: 2025-03-13T09:30+01:00
-        end_datetime: 2025-03-13T09:40+01:00
-        talk_title: "Opening by GrUSP"
+        start_datetime: 2025-03-13T09:35+01:00
+        end_datetime: 2025-03-13T09:50+01:00
+        talk_title: "👋 Opening by GrUSP"
 
       UnlockingPotentialTransformingOnboardingIntoAJourneyOfEmpowerment:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2025-03-13T09:40+01:00
-        end_datetime: 2025-03-13T10:25+01:00
+        start_datetime: 2025-03-13T09:50+01:00
+        end_datetime: 2025-03-13T10:30+01:00
         talk_title: "Unlocking Potential: Transforming Onboarding into a Journey of Empowerment"
         talk_description: >-
-          In the fast-paced world of software engineering, onboarding is no longer just a welcome; it's an invitation to thrive, 
-          innovate, and transform. <br />At Swissquote, we've crafted something extraordinary with our Tech Talent Academy—an 
-          onboarding experience like no other. <br />This immersive, three-month journey is designed to spark potential, ignite 
+          In the fast-paced world of software engineering, onboarding is no longer just a welcome; it's an invitation to thrive,
+          innovate, and transform. <br />At Swissquote, we've crafted something extraordinary with our Tech Talent Academy—an
+          onboarding experience like no other. <br />This immersive, three-month journey is designed to spark potential, ignite
           innovation, and set the stage for a truly inclusive workplace.
           Imagine an onboarding program that goes beyond the basics, one that's purposefully designed to:
           <ul>
@@ -252,8 +252,8 @@ days:
           <li>Drive Transformation</li>
           </ul>
           <br />
-          Join us as we share the heart of the Tech Talent Academy. Discover the strategies that make it a catalyst for growth 
-          and impact, hear how it's reshaping our engineering teams, and walk away with actionable insights to transform your 
+          Join us as we share the heart of the Tech Talent Academy. Discover the strategies that make it a catalyst for growth
+          and impact, hear how it's reshaping our engineering teams, and walk away with actionable insights to transform your
           own onboarding process.
         talk_video_url: ""
         speakers:
@@ -263,25 +263,25 @@ days:
       ? EnhancingSoftwareDeliveryOptimizingValueStreamsThroughDORAAndPlatformEngineering
       : item_type: "talk"
         track: *track_1
-        start_datetime: 2025-03-13T10:25+01:00
+        start_datetime: 2025-03-13T10:30+01:00
         end_datetime: 2025-03-13T11:10+01:00
         talk_title: "Enhancing Software Delivery: Optimizing Value Streams through DORA and Platform Engineering"
         talk_description: >-
-          In this talk, we will explore the synergy between DORA metrics, Value Stream Management (VSM), and Platform Engineering, 
-          illustrating how these frameworks collectively enhance software delivery in product-based companies. By leveraging DORA 
-          metrics—such as deployment frequency and lead time for changes—teams can quantitatively assess and improve their performance, 
+          In this talk, we will explore the synergy between DORA metrics, Value Stream Management (VSM), and Platform Engineering,
+          illustrating how these frameworks collectively enhance software delivery in product-based companies. By leveraging DORA
+          metrics—such as deployment frequency and lead time for changes—teams can quantitatively assess and improve their performance,
           aligning their efforts with business goals to ensure both speed and stability are achieved without compromise. <br /> <br />
-          We will explore how VSM provides a holistic view of the software delivery process, enabling teams to identify bottlenecks 
-          and optimize the flow of value from ideation to user delivery. This approach not only reduces waste but also aligns 
+          We will explore how VSM provides a holistic view of the software delivery process, enabling teams to identify bottlenecks
+          and optimize the flow of value from ideation to user delivery. This approach not only reduces waste but also aligns
           development activities with strategic objectives, ensuring that every step adds value to the customer experience. <br /> <br />
-          Furthermore, we will discuss the role of Platform Engineering in organizing development teams and tools. By implementing 
-          Internal Development Platforms (IDPs), organizations can reduce cognitive load, streamline operations, and foster a culture 
-          of collaboration. Platform Engineering standardizes workflows and tools, enabling teams to focus on innovation rather than 
+          Furthermore, we will discuss the role of Platform Engineering in organizing development teams and tools. By implementing
+          Internal Development Platforms (IDPs), organizations can reduce cognitive load, streamline operations, and foster a culture
+          of collaboration. Platform Engineering standardizes workflows and tools, enabling teams to focus on innovation rather than
           infrastructure management. <br /> <br />
-          Drawing from Team Topologies, we will highlight the importance of socio-technical systems where collaboration and 
-          communication are paramount. This perspective emphasizes that technical excellence is intertwined with effective team 
+          Drawing from Team Topologies, we will highlight the importance of socio-technical systems where collaboration and
+          communication are paramount. This perspective emphasizes that technical excellence is intertwined with effective team
           dynamics and cognitive load management. <br /> <br />
-          By integrating these concepts, we aim to demonstrate how high-performing teams thrive at the intersection of technology 
+          By integrating these concepts, we aim to demonstrate how high-performing teams thrive at the intersection of technology
           and collaboration, ultimately enhancing their ability to deliver continuous value to customers.
         talk_video_url: ""
         speakers:
@@ -291,7 +291,7 @@ days:
         item_type: "service"
         start_datetime: 2025-03-13T11:10+01:00
         end_datetime: 2025-03-13T11:40+01:00
-        talk_title: "coffee break"
+        talk_title: "☕️ coffee break"
         service_icon: "coffee"
 
       NextLevelRunbookEssentialToolsForDeveloperProductivityAndResilience:
@@ -301,15 +301,15 @@ days:
         end_datetime: 2025-03-13T12:20+01:00
         talk_title: "Next-Level Runbook: Essential Tools for Developer Productivity and Resilience"
         talk_description: >-
-          Runbooks are the backbone of reliable incident response, but are your runbooks built to keep developers productive and 
-          resilient in a 24/7 operational world? In this talk, we'll guide you through transforming runbooks into streamlined, 
-          high-impact tools that both empower developers and drive productivity gains across your teams. We'll explore the critical 
-          balance of detail versus simplicity, how to build runbooks as code, and why consistency and ownership are crucial for 
+          Runbooks are the backbone of reliable incident response, but are your runbooks built to keep developers productive and
+          resilient in a 24/7 operational world? In this talk, we'll guide you through transforming runbooks into streamlined,
+          high-impact tools that both empower developers and drive productivity gains across your teams. We'll explore the critical
+          balance of detail versus simplicity, how to build runbooks as code, and why consistency and ownership are crucial for
           alignment across DevEx and Dev Prod teams. <br /> <br />
-          Covering everything from dashboards that track meaningful metrics to next-generation AI features, we'll walk through the 
-          anatomy of runbooks that work - and those that don't. Learn how to craft runbooks that don't just sit idle until the next 
+          Covering everything from dashboards that track meaningful metrics to next-generation AI features, we'll walk through the
+          anatomy of runbooks that work - and those that don't. Learn how to craft runbooks that don't just sit idle until the next
           incident but evolve with every touchpoint, staying relevant and impactful. <br />
-          This session offers practical insights into turning runbooks into assets that save time and reduce stress, even in 
+          This session offers practical insights into turning runbooks into assets that save time and reduce stress, even in
           high-stakes environments.
         talk_video_url: ""
         speakers:
@@ -323,13 +323,13 @@ days:
         end_datetime: 2025-03-13T13:00+01:00
         talk_title: "Creating a Smooth Developer Experience: From Complexity to Simplicity"
         talk_description: >-
-          In the Cloud Native ecosystem reducing cognitive load is essential for a productive and fulfilling Developer Experience 
+          In the Cloud Native ecosystem reducing cognitive load is essential for a productive and fulfilling Developer Experience
           (DevX). <br /> <br />
-          This talk explores how Platform Engineering can alleviate cognitive load through automation and self-service access, 
-          allowing developers to navigate complex environments without excessive friction. Leveraging metrics like DORA and SPACE 
-          to track, understand and optimize team workflows, we'll examine how to enhance DevX by minimizing interruptions and 
+          This talk explores how Platform Engineering can alleviate cognitive load through automation and self-service access,
+          allowing developers to navigate complex environments without excessive friction. Leveraging metrics like DORA and SPACE
+          to track, understand and optimize team workflows, we'll examine how to enhance DevX by minimizing interruptions and
           context switching. <br /> <br />
-          We'll share concrete strategies to create cloud-native environments that simplify complexity, enabling developers to 
+          We'll share concrete strategies to create cloud-native environments that simplify complexity, enabling developers to
           focus on what truly matters and fostering a sustainable, purpose-driven development culture.
         talk_video_url: ""
         speakers:
@@ -338,22 +338,22 @@ days:
       lucnh_break:
         item_type: "service"
         start_datetime: 2025-03-13T13:00+01:00
-        end_datetime: 2025-03-13T14:15+01:00
-        talk_title: "Lunch break"
+        end_datetime: 2025-03-13T14:30+01:00
+        talk_title: "🍝 Lunch break"
         service_icon: "cutlery"
 
       BeforeItWasCool6YearsOfOurInternalDeveloperPortal:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2025-03-13T14:15+01:00
-        end_datetime: 2025-03-13T15:00+01:00
+        start_datetime: 2025-03-13T14:30+01:00
+        end_datetime: 2025-03-13T15:10+01:00
         talk_title: "Before It Was Cool: 6 years of our Internal Developer Portal"
         talk_description: >-
-          Around 2019, we were already quite advanced in introducing microservices architecture in an effort to replace our two 
-          monolithic systems within the largest HR tech company in Central and Eastern Europe. <br /><br />Therefore, we were 
-          painfully aware of the challenges of having dozens of developers trying to agilely build independent chunks of software 
-          that communicate with each other. This talk presents our journey in developing a custom command line tool that significantly 
-          reduced the time to set up new applications while enabling us to introduce standardization seamlessly from the developers' 
+          Around 2019, we were already quite advanced in introducing microservices architecture in an effort to replace our two
+          monolithic systems within the largest HR tech company in Central and Eastern Europe. <br /><br />Therefore, we were
+          painfully aware of the challenges of having dozens of developers trying to agilely build independent chunks of software
+          that communicate with each other. This talk presents our journey in developing a custom command line tool that significantly
+          reduced the time to set up new applications while enabling us to introduce standardization seamlessly from the developers'
           perspective. <br /><br />It will also include current alternatives and how we envision the future of our IDP
         talk_video_url: ""
         speakers:
@@ -362,16 +362,16 @@ days:
       BeyondCopilotHowDeveloperToolsAreEvolvingFromEditorsToAgents:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2025-03-13T15:00+01:00
-        end_datetime: 2025-03-13T15:45+01:00
+        start_datetime: 2025-03-13T15:10+01:00
+        end_datetime: 2025-03-13T15:50+01:00
         talk_title: "Beyond Copilot: How Developer Tools Are Evolving from Editors to Agents"
         talk_description: >-
-          The AI revolution in developer tooling is here. GitHub reported over 1M paid Copilot users. 
-          50% of the latest YC batch are AI companies. And with Open AI landing over $6B in funding. 
+          The AI revolution in developer tooling is here. GitHub reported over 1M paid Copilot users.
+          50% of the latest YC batch are AI companies. And with Open AI landing over $6B in funding.
           It's safe to say significant shifts are comnig. <br />But, where's the line between hype and reality? <br /> <br />
-          Join me for an honest, hype-free examination of the state of AI developer tooling. From reimagined 
-          editors like Cursor to AI-powered terminals like Warp to autonomous agents like Devin. We look at 
-          whether the future is in long-running agents or in hybrid approaches with humans-in-the-loop? And 
+          Join me for an honest, hype-free examination of the state of AI developer tooling. From reimagined
+          editors like Cursor to AI-powered terminals like Warp to autonomous agents like Devin. We look at
+          whether the future is in long-running agents or in hybrid approaches with humans-in-the-loop? And
           how we can benefit from this new reality in the decade ahead.
         talk_video_url: ""
         speakers:
@@ -379,22 +379,22 @@ days:
 
       coffee_break_afternoon:
         item_type: "service"
-        start_datetime: 2025-03-13T15:45+01:00
-        end_datetime: 2025-03-13T16:15+01:00
-        talk_title: "coffee break"
+        start_datetime: 2025-03-13T15:50+01:00
+        end_datetime: 2025-03-13T16:20+01:00
+        talk_title: "☕️ coffee break"
         service_icon: "coffee"
 
       GitOpsSecretManagementAndHowDevelopersCanSurviveIt:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2025-03-13T16:15+01:00
+        start_datetime: 2025-03-13T16:20+01:00
         end_datetime: 2025-03-13T17:00+01:00
         talk_title: "GitOps Secret Management and How Developers Can Survive It"
         talk_description: >-
-          'I will remove it later after the local tests!' The last famous words, before a production secret is written, committed 
-          and pushed to a repository. <br />Secret management is hard in theory, harder when following GitOps principles, and in 
-          practice it is even worse for budget limits, technical limits, knowledge limits make implementing a secure and above all 
-          usable solution a challenge. <br />In this talk we will see common GitOps secret management patterns, with their pros 
+          'I will remove it later after the local tests!' The last famous words, before a production secret is written, committed
+          and pushed to a repository. <br />Secret management is hard in theory, harder when following GitOps principles, and in
+          practice it is even worse for budget limits, technical limits, knowledge limits make implementing a secure and above all
+          usable solution a challenge. <br />In this talk we will see common GitOps secret management patterns, with their pros
           and cons, and how they can be improved to offer a better experience to developers and infrastructure teams.
         talk_video_url: ""
         speakers:
@@ -404,11 +404,11 @@ days:
         item_type: "talk"
         track: *track_1
         start_datetime: 2025-03-13T17:00+01:00
-        end_datetime: 2025-03-13T17:45+01:00
+        end_datetime: 2025-03-13T17:40+01:00
         talk_title: "From Skepticism to Engagement: Building a Developer Experience Program"
         talk_description: >-
-          Developer Experience (DX) has emerged as a critical factor in fostering collaboration and productivity within engineering 
-          teams. At Docebo, we recently embarked on a journey to introduce a comprehensive DX program, and in this session, we'll 
+          Developer Experience (DX) has emerged as a critical factor in fostering collaboration and productivity within engineering
+          teams. At Docebo, we recently embarked on a journey to introduce a comprehensive DX program, and in this session, we'll
           share our experiences, insights, and lessons learned.
         talk_video_url: ""
         speakers:
@@ -416,6 +416,6 @@ days:
 
       closing:
         item_type: "service"
-        start_datetime: 2025-03-13T17:45+01:00
-        end_datetime: 2025-03-13T17:55+01:00
-        talk_title: "Closing by GrUSP"
+        start_datetime: 2025-03-13T17:40+01:00
+        end_datetime: 2025-03-13T17:50+01:00
+        talk_title: "👋 Closing by GrUSP"
