@@ -15,6 +15,10 @@ platinum:
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
 gold:
+  sponsor1:
+    name: "Immobiliare Labs"
+    logo_filename: "immobiliare.svg"
+    site_url: "https://labs.immobiliare.it/"
   sponsor2:
     name: "Vianova"
     logo_filename: "vianova.svg"
@@ -36,11 +40,11 @@ silver:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
-# bronze:
-#   sponsor2:
-#     name: "stickermule"
-#     logo_filename: "stickermule.svg"
-#     site_url: "https://mule.to/p2gc"
+bronze:
+  sponsor1:
+    name: "swissquote"
+    logo_filename: "swissquote.svg"
+    site_url: "https://www.swissquote.com/en/careers"
 # diversity:
 #   sponsor1:
 #     name: "S"
