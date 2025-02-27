@@ -26,7 +26,7 @@ gold:
 silver:
   sponsor1:
     name: "Imola Informatica"
-    logo_filename: "imola-informatica.png"
+    logo_filename: "imola-informatica.svg"
     site_url: "https://imolainformatica.it/"
   sponsor2:
     name: "Mia-Platform"
